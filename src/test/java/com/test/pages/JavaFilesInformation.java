@@ -1,11 +1,15 @@
-package com.vehiclereg.utils;
+package com.test.pages;
+
+import au.com.bytecode.opencsv.CSVReader;
 
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 
 public class JavaFilesInformation {
 
+    public static String vehicleReg = "";
 
     public static String getWorkingDir(String directoryName) {
         String workingDirectory = System.getProperty("user.dir");
@@ -79,10 +83,21 @@ public class JavaFilesInformation {
         }
 
 
-    public static void main(String[] args) {
-        whenGetFileSize_thenCorrect("testdir");
-        getExtension("testdir");
-        listFiles("testdir");
-        listFileMimeTypes("testdir");
+    public static String readData() throws IOException {
+        final String FILE_PATH= "D:\\Automation Projects\\vehicleregcheck\\testdir\\vehicleRegdata.csv";
+        CSVReader reader = new CSVReader(new FileReader(FILE_PATH));
+        String [] csvCell;
+        //while loop will be executed till the last line In CSV.
+        while ((csvCell = reader.readNext()) != null) {
+            String vRegNo = csvCell[0];
+            String vMake = csvCell[1];
+            String vColor = csvCell[2];
+            System.out.println("Vehicle Registration No is "+vRegNo );
+            System.out.println("Vehicle Manufacturer is "+vMake );
+            System.out.println("Vehicle Colour is "+vColor );
+            vehicleReg  = vRegNo;
+            System.out.println(vehicleReg);
+        }
+        return vehicleReg;
     }
 }
