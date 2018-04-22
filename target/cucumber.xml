@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="11.266114">
+<testcase classname="To get the file information" name="To display file names" time="0.111912">
+<system-out><![CDATA[Given Directory contains list of files......................................passed
+When I retrieve files names information.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To get the file information" name="To display file Mimetypes" time="0.01">
+<system-out><![CDATA[Given Directory contains list of files......................................passed
+When I retrieve files mime information......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To get the file information" name="To display file extensions" time="0.000651">
+<system-out><![CDATA[Given Directory contains list of files......................................passed
+When I retrieve files extensions information................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To get the file information" name="To display file size" time="0.003418">
+<system-out><![CDATA[Given Directory contains list of files......................................passed
+When I retrieve files size information......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Vehicle Registration check" name="Check the vehicle registration details" time="11.140133">
+<system-out><![CDATA[Given govuk website and I launch it.........................................passed
+When I click on start button................................................passed
+Then I should be on the "Check if a vehicle is taxed and has an MOT" page...passed
+When I enter registration number and I click on continue button.............passed
+Then I should be on the "Check if a vehicle is taxed and has an MOT" page...passed
+When I validate Vehicle details and I click on continue button..............passed
+Then I should be on the "Check if a vehicle is taxed and has an MOT" page...passed
+And I validate Vehicle details..............................................passed
+And I close the Browser.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

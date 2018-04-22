@@ -1,0 +1,324 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To display file names",
+        "description": "",
+        "id": "to-get-the-file-information;to-display-file-names",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 110163710,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Directory contains list of files",
+            "match": {
+              "location": "Stepdefs.directoryContainsListOfFiles()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1748542,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I retrieve files names information",
+            "match": {
+              "location": "Stepdefs.iRetrieveFilesNamesInformation()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Test01"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "To display file Mimetypes",
+        "description": "",
+        "id": "to-get-the-file-information;to-display-file-mimetypes",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33975,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Directory contains list of files",
+            "match": {
+              "location": "Stepdefs.directoryContainsListOfFiles()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9965823,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I retrieve files mime information",
+            "match": {
+              "location": "Stepdefs.iRetrieveFilesMimeInformation()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Test01"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "To display file extensions",
+        "description": "",
+        "id": "to-get-the-file-information;to-display-file-extensions",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37135,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Directory contains list of files",
+            "match": {
+              "location": "Stepdefs.directoryContainsListOfFiles()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 613926,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I retrieve files extensions information",
+            "match": {
+              "location": "Stepdefs.iRetrieveFilesExtensionsInformation()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Test01"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "To display file size",
+        "description": "",
+        "id": "to-get-the-file-information;to-display-file-size",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41482,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Directory contains list of files",
+            "match": {
+              "location": "Stepdefs.directoryContainsListOfFiles()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3376986,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I retrieve files size information",
+            "match": {
+              "location": "Stepdefs.iRetrieveFilesSizeInformation()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@Test01"
+          }
+        ]
+      }
+    ],
+    "name": "To get the file information",
+    "description": "",
+    "id": "to-get-the-file-information",
+    "keyword": "Feature",
+    "uri": "features/fileInfo.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Check the vehicle registration details",
+        "description": "",
+        "id": "vehicle-registration-check;check-the-vehicle-registration-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5850647368,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "govuk website and I launch it",
+            "match": {
+              "location": "Stepdefs.govukWebsiteAndILaunchIt()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79849845,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on start button",
+            "match": {
+              "location": "Stepdefs.iClickOnStartButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3645233,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be on the \"Check if a vehicle is taxed and has an MOT\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Check if a vehicle is taxed and has an MOT",
+                  "offset": 20
+                }
+              ],
+              "location": "Stepdefs.iShouldBeOnThePage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2708361597,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter registration number and I click on continue button",
+            "match": {
+              "location": "Stepdefs.iEnterRegistrationNumberAndIClickOnContinueButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63210,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be on the \"Check if a vehicle is taxed and has an MOT\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Check if a vehicle is taxed and has an MOT",
+                  "offset": 20
+                }
+              ],
+              "location": "Stepdefs.iShouldBeOnThePage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 174461165,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I validate Vehicle details and I click on continue button",
+            "match": {
+              "location": "Stepdefs.iValidateVehicleDetailsAndIClickOnContinueButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58864,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be on the \"Check if a vehicle is taxed and has an MOT\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Check if a vehicle is taxed and has an MOT",
+                  "offset": 20
+                }
+              ],
+              "location": "Stepdefs.iShouldBeOnThePage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 368596793,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I validate Vehicle details",
+            "match": {
+              "location": "Stepdefs.iValidateVehicleDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1954449006,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I close the Browser",
+            "match": {
+              "location": "Stepdefs.iCloseTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Test01"
+          }
+        ]
+      }
+    ],
+    "name": "Vehicle Registration check",
+    "description": "As a User\nI can check my vehicle registration details on gov.uk website.",
+    "id": "vehicle-registration-check",
+    "keyword": "Feature",
+    "uri": "features/vehicleregistrationcheck.feature"
+  }
+]
