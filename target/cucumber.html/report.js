@@ -34,14 +34,14 @@ formatter.match({
   "location": "Stepdefs.directoryContainsListOfFiles()"
 });
 formatter.result({
-  "duration": 110163710,
+  "duration": 133950815,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.iRetrieveFilesNamesInformation()"
 });
 formatter.result({
-  "duration": 1748542,
+  "duration": 20501728,
   "status": "passed"
 });
 formatter.scenario({
@@ -72,14 +72,14 @@ formatter.match({
   "location": "Stepdefs.directoryContainsListOfFiles()"
 });
 formatter.result({
-  "duration": 33975,
+  "duration": 21728,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.iRetrieveFilesMimeInformation()"
 });
 formatter.result({
-  "duration": 9965823,
+  "duration": 42284642,
   "status": "passed"
 });
 formatter.scenario({
@@ -110,14 +110,14 @@ formatter.match({
   "location": "Stepdefs.directoryContainsListOfFiles()"
 });
 formatter.result({
-  "duration": 37135,
+  "duration": 40296,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.iRetrieveFilesExtensionsInformation()"
 });
 formatter.result({
-  "duration": 613926,
+  "duration": 1400494,
   "status": "passed"
 });
 formatter.scenario({
@@ -148,14 +148,14 @@ formatter.match({
   "location": "Stepdefs.directoryContainsListOfFiles()"
 });
 formatter.result({
-  "duration": 41482,
+  "duration": 52544,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.iRetrieveFilesSizeInformation()"
 });
 formatter.result({
-  "duration": 3376986,
+  "duration": 709926,
   "status": "passed"
 });
 formatter.uri("features/vehicleregistrationcheck.feature");
@@ -229,14 +229,14 @@ formatter.match({
   "location": "Stepdefs.govukWebsiteAndILaunchIt()"
 });
 formatter.result({
-  "duration": 5850647368,
+  "duration": 9791762962,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.iClickOnStartButton()"
 });
 formatter.result({
-  "duration": 79849845,
+  "duration": 193333333,
   "status": "passed"
 });
 formatter.match({
@@ -249,14 +249,14 @@ formatter.match({
   "location": "Stepdefs.iShouldBeOnThePage(String)"
 });
 formatter.result({
-  "duration": 3645233,
+  "duration": 2891852,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.iEnterRegistrationNumberAndIClickOnContinueButton()"
 });
 formatter.result({
-  "duration": 2708361597,
+  "duration": 6580141828,
   "status": "passed"
 });
 formatter.match({
@@ -269,14 +269,14 @@ formatter.match({
   "location": "Stepdefs.iShouldBeOnThePage(String)"
 });
 formatter.result({
-  "duration": 63210,
+  "duration": 137087,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.iValidateVehicleDetailsAndIClickOnContinueButton()"
 });
 formatter.result({
-  "duration": 174461165,
+  "duration": 196907852,
   "status": "passed"
 });
 formatter.match({
@@ -289,21 +289,21 @@ formatter.match({
   "location": "Stepdefs.iShouldBeOnThePage(String)"
 });
 formatter.result({
-  "duration": 58864,
+  "duration": 99951,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.iValidateVehicleDetails()"
 });
 formatter.result({
-  "duration": 368596793,
+  "duration": 414226173,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.iCloseTheBrowser()"
 });
 formatter.result({
-  "duration": 1954449006,
+  "duration": 2073222321,
   "status": "passed"
 });
 });
