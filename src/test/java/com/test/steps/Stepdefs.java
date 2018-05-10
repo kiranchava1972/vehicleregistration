@@ -64,7 +64,7 @@ public class Stepdefs {
 
     @Given("^govuk website and I launch it$")
     public void govukWebsiteAndILaunchIt() throws Throwable {
-        System.setProperty("webdriver.gecko.driver", "D:\\Automation Projects\\vehicleregcheck\\src\\browserdrivers\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "C:\\Users\\HP\\Documents\\SeleniumAutomation\\vehicleregistration\\browserdrivers\\geckodriver.exe");
         driver = new FirefoxDriver();
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
@@ -123,11 +123,11 @@ public class Stepdefs {
         System.out.println("Page title is : " + ptitle);
         Assert.assertEquals(ptitle, "Check if a vehicle is taxed and has an MOT");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        System.out.println(driver.findElement(By.tagName("h1")).getText());
+        System.out.println(driver.findElement(By.cssSelector("main[id*='content'] div h1 span")).getText());
         System.out.println(driver.findElement(By.xpath(".//main/div[2]/div[2]/div[1]/h2")).getText());
         System.out.println(driver.findElement(By.xpath(".//main/div[2]/div[1]/div[1]/p")).getText());
-        Assert.assertEquals(driver.findElement(By.xpath(".//main/div[4]/div/ul/li[1]/span[2]/strong")).getText(), "HONDA");
-        Assert.assertEquals(driver.findElement(By.xpath(".//main/div[4]/div/ul/li[9]/span[2]/strong")).getText(), "SILVER");
+        Assert.assertEquals(driver.findElement(By.xpath(".//main/div[4]/div/ul/li[1]/span[2]/strong")).getText(), "FORD");
+        Assert.assertEquals(driver.findElement(By.xpath(".//main/div[4]/div/ul/li[9]/span[2]/strong")).getText(), "BLUE");
         System.out.println(driver.findElement(By.xpath(".//main/div[4]/div/ul/li[1]/span[2]/strong")).getText());
         System.out.println(driver.findElement(By.xpath(".//main/div[4]/div/ul/li[9]/span[2]/strong")).getText());
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

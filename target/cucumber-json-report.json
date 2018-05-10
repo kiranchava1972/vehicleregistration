@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 133950815,
+              "duration": 104071591,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 20501728,
+              "duration": 1942185,
               "status": "passed"
             },
             "line": 6,
@@ -52,7 +52,7 @@
         "steps": [
           {
             "result": {
-              "duration": 21728,
+              "duration": 35840,
               "status": "passed"
             },
             "line": 10,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 42284642,
+              "duration": 9081592,
               "status": "passed"
             },
             "line": 11,
@@ -92,7 +92,7 @@
         "steps": [
           {
             "result": {
-              "duration": 40296,
+              "duration": 48213,
               "status": "passed"
             },
             "line": 15,
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 1400494,
+              "duration": 434773,
               "status": "passed"
             },
             "line": 16,
@@ -132,7 +132,7 @@
         "steps": [
           {
             "result": {
-              "duration": 52544,
+              "duration": 44373,
               "status": "passed"
             },
             "line": 20,
@@ -144,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 709926,
+              "duration": 2210558,
               "status": "passed"
             },
             "line": 21,
@@ -182,7 +182,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9791762962,
+              "duration": 9312781386,
               "status": "passed"
             },
             "line": 8,
@@ -194,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 193333333,
+              "duration": 117989446,
               "status": "passed"
             },
             "line": 9,
@@ -206,7 +206,7 @@
           },
           {
             "result": {
-              "duration": 2891852,
+              "duration": 4706556,
               "status": "passed"
             },
             "line": 10,
@@ -224,7 +224,7 @@
           },
           {
             "result": {
-              "duration": 6580141828,
+              "duration": 5873555308,
               "status": "passed"
             },
             "line": 11,
@@ -236,7 +236,7 @@
           },
           {
             "result": {
-              "duration": 137087,
+              "duration": 126293,
               "status": "passed"
             },
             "line": 12,
@@ -254,7 +254,7 @@
           },
           {
             "result": {
-              "duration": 196907852,
+              "duration": 299447212,
               "status": "passed"
             },
             "line": 13,
@@ -266,7 +266,7 @@
           },
           {
             "result": {
-              "duration": 99951,
+              "duration": 200533,
               "status": "passed"
             },
             "line": 14,
@@ -284,7 +284,7 @@
           },
           {
             "result": {
-              "duration": 414226173,
+              "duration": 426417983,
               "status": "passed"
             },
             "line": 15,
@@ -296,7 +296,7 @@
           },
           {
             "result": {
-              "duration": 2073222321,
+              "duration": 4201159935,
               "status": "passed"
             },
             "line": 16,
@@ -316,7 +316,7 @@
       }
     ],
     "name": "Vehicle Registration check",
-    "description": "As a User\nI can check my vehicle registration details on gov.uk website.",
+    "description": "As a User\r\nI can check my vehicle registration details on gov.uk website.",
     "id": "vehicle-registration-check",
     "keyword": "Feature",
     "uri": "features/vehicleregistrationcheck.feature"

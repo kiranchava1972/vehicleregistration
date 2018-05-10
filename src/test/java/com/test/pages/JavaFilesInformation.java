@@ -84,7 +84,7 @@ public class JavaFilesInformation {
 
 
     public static String readData() throws IOException {
-        final String FILE_PATH= "D:\\Automation Projects\\vehicleregcheck\\testdir\\vehicleRegdata.csv";
+        final String FILE_PATH= "C:\\Users\\HP\\Documents\\SeleniumAutomation\\vehicleregistration\\testdir\\vehicleRegdata.csv";
         CSVReader reader = new CSVReader(new FileReader(FILE_PATH));
         String [] csvCell;
         //while loop will be executed till the last line In CSV.
