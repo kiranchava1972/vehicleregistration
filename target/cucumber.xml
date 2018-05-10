@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="19.804943">
-<testcase classname="To get the file information" name="To display file names" time="0.172358">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="23.09641">
+<testcase classname="To get the file information" name="To display file names" time="0.171546">
 <system-out><![CDATA[Given Directory contains list of files......................................passed
 When I retrieve files names information.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To get the file information" name="To display file Mimetypes" time="0.010746">
+<testcase classname="To get the file information" name="To display file Mimetypes" time="0.03402">
 <system-out><![CDATA[Given Directory contains list of files......................................passed
 When I retrieve files mime information......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To get the file information" name="To display file extensions" time="0.000673">
+<testcase classname="To get the file information" name="To display file extensions" time="0.000617">
 <system-out><![CDATA[Given Directory contains list of files......................................passed
 When I retrieve files extensions information................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To get the file information" name="To display file size" time="0.001879">
+<testcase classname="To get the file information" name="To display file size" time="0.00466">
 <system-out><![CDATA[Given Directory contains list of files......................................passed
 When I retrieve files size information......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Vehicle Registration check" name="Check the vehicle registration details" time="19.619287">
+<testcase classname="Vehicle Registration check" name="Check the vehicle registration details" time="22.885567">
 <system-out><![CDATA[Given govuk website and I launch it.........................................passed
 When I click on start button................................................passed
 Then I should be on the "Check if a vehicle is taxed and has an MOT" page...passed
